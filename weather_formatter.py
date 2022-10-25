@@ -1,6 +1,6 @@
 import datetime
 
-from weather_api_service import Weather, WeatherType
+from weather_client import Weather, WeatherType
 
 
 def format_weather(weather: Weather) -> str:
