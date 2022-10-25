@@ -1,14 +1,13 @@
 import json
 import urllib.request
-from datetime import date, datetime
+from datetime import datetime
 from enum import Enum
 from typing import Literal, NamedTuple
 from urllib.error import URLError
 
 from requests import JSONDecodeError
 
-from coordinates import Coordinates
-from exceptions import ApiServiceError, UnconfiguredVariable
+from exceptions import ApiServiceError
 
 Celsius = int
 
