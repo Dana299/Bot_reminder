@@ -1,5 +1,4 @@
 import datetime
-import math
 
 from weather_api_service import Weather, WeatherType
 

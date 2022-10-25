@@ -15,6 +15,7 @@ class Parser:
     def setup(self) -> None:
         pass
 
+    @staticmethod
     def parse_url(*args, **kwargs) -> list[str]:
         today = date.strftime(datetime.now() - timedelta(days=1), '%Y-%m-%d')
         url = f'https://www.anekdot.ru/release/anekdot/day/{today}/'
